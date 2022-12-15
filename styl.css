@@ -1,0 +1,47 @@
+
+.border-bottom {
+    border-bottom: 2px solid #dee2e6!important;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .dg-lg-blog {
+      display: block;
+      
+    }
+  }
+  .text-primary{
+    color: #7AB730;
+  }
+  .shopicon {
+    font-size: 50px;
+  }
+  .nav-link:hover{
+   border-top: 5px solid #7AB730;
+   color: #7AB730;
+   
+ }
+ .nav-item:hover {
+  color: #7AB730;
+}
+
+ .nav-link{
+  transition: all 0.1s;
+  color: #111;
+ }
+ a{
+  text-decoration: none;
+
+ }
+ .navbar-toggler{
+  background-color: #7AB730;
+ }
+ .navbar-toggler-icon{
+ background-color: white;
+ }
+ @media only screen and (max-width: 992px) {
+  .firstdiv{
+     display: none;
+  }
+}
+ 
