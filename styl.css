@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:wght@400;500;700&display=swap');
+
+
+
+
 
 .border-bottom {
     border-bottom: 2px solid #dee2e6!important;
@@ -10,7 +15,7 @@
       
     }
   }
-  .text-primary{
+  .text-primare{
     color: #7AB730;
   }
   .shopicon {
@@ -19,6 +24,7 @@
   .nav-link:hover{
    border-top: 5px solid #7AB730;
    color: #7AB730;
+
    
  }
  .nav-item:hover {
@@ -29,6 +35,7 @@
   transition: all 0.1s;
   color: #111;
   cursor: pointer;
+  
  }
  a{
   text-decoration: none;
@@ -67,7 +74,227 @@
 .readmore:hover{
   color: #111;
 }
+.fntfamilypetstore{
+  font-family: 'Carter One', cursive;
+}
+.linecss{
+    border-left: 5px solid #7AB730;
 
+
+}
+ .nav{
+  display: flex;
+  flex: wrap;
+  padding-left: 0;
+  list-style: none;
+ }
+
+ .navik {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #7AB730;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out;
+}
+.bg-offer{
+  background-image: url(img/offer\ bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+.border-5{
+  border-left: 1px solid #111;
+  padding-left:  30px;
+  
+  
+}
+/* 
+owl crousel */
+
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.owl-nav button.owl-prev {
+  left:0;
+  display: none;
+  background-color: #7AB730;
+}
+.owl-nav button.owl-next {
+  right: 0;
+  display: none;
+}
+
+
+
+
+
+
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: rgb(28, 224, 44);
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: rgb(119, 119, 119);
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+
+.owl-nav button:focus {
+    outline: none;
+}
+/* 
+owl crousel */
+
+/* .btnhover */
+.btn-color {
+  background-color: #7AB730;
+  border-color: #7AB730;
+}
+.btn {
+  font-family: Roboto,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: .5s;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: .5s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+ .carthover:hover > .carticon{
+  display: flex;
+
+  transition: .5s;
+}
+.carticon{
+   display:  none;
+}
+/* .btnhover */
+
+/* cards */
+
+.bg-card {
+  background-color: #7AB730
+}
+.align-top {
+  vertical-align: top!important;
+}
+li{
+  list-style: none;
+}
+.order:hover{
+  color: #111;
+}
+/* 2nd owl carousel.................... */
+ 
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 100%;
+  position: relative;
+
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+.team1{
+  padding-bottom: 10px;
+}
+/* ovarly ................*/
+.ntainer{
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+.picjr{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay{
+  position: absolute;
+  background-color: #7AB730;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  opacity: 0;
+  transition: .3s ease;
+}
+.iconowl {
+  
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+}
+.fa-user:hover{
+ color: #dee2e6;
+}
+.ntainer:hover .overlay {
+  opacity: 0.8;
+}
+
+.bg-testimonial{
+  background: url(img/testimonial.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 610px;
+  width: 100%;
+
+}
+/* OWL CAROWSEL......... */
 
 
 
