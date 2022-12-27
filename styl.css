@@ -290,11 +290,33 @@ li{
   background: url(img/testimonial.jpg) ;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 610px;
+  height: 550px;
   width: 100%;
 
 }
 /* OWL CAROWSEL......... */
+
+.testimonialdiv{
+   padding-top: 30px;
+   padding-bottom: 90px;
+  
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  width: 5rem;
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-color: #7AB730;;
+  cursor: pointer;
+
+  
+}
+.texttestimonial{
+  border-top: 5px solid #000000;
+
+}
 
 
 
